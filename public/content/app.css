@@ -1,0 +1,77 @@
+  
+  .container{
+    background-color: gray;
+    padding:30px;  
+   
+  }
+
+  a{
+    font-size: large;
+   color:black; 
+  
+   text-decoration: none; 
+  }
+  
+
+
+  a:hover{ color:gray; text-decoration: underline;}
+  a:visited{color:lightblue;}
+  
+  
+  
+  .homeCon{
+    margin-top: 10px; 
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:20px;
+    padding-left:20px;
+    color:black;
+  } 
+  
+ 
+  
+  
+    .homeCon:hover{background-color: black;
+    color:white;
+  text-decoration: none;}
+  
+  input[type=reset]{
+    background-color: lightblue;   
+    margin-top: 10px; 
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:20px;
+    padding-left:20px;
+    box-shadow: 10px white;
+  }
+  input[type=reset]:hover{
+    background-color: black;
+    color:white;
+  }
+  
+  #country{
+    margin-top:6px;
+    margin-bottom:16px;
+  }
+  textarea{
+    margin-top:6px;
+    margin-bottom: 16px;   
+    padding:5px; 
+    
+  }
+  .fieldset{
+    background-color: grey;
+    box-shadow: 5px 10px 18px black;
+    width: 70%;
+    margin: auto;
+  }
+
+
+  form{
+    padding:30px;
+    padding-right: 50px;
+    
+  }
+  
+  
+  

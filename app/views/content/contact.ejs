@@ -1,0 +1,53 @@
+<div class="container-fluid">
+    <h1><%= title %></h1>
+</div>
+
+<main class="container">
+    <div class="jumbotron text-center">
+      <h1 class="display-4"><%= title%> Us!</h1>
+      
+    </div>
+    </main>
+    <br>
+    
+    <fieldset class="fieldset">
+    
+      <form>
+        <label for="fname">First Name:</label>
+        <input type="text"  id="fname" name="firstname" placeholder="Enter your first name...">
+        <br><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lastname" placeholder="Enter your last name...">
+        <br><br>
+        <label for="email">Email ID:</label>
+        <input type="text" id="email" name="Email" placeholder="abcd@gmail.com">
+        <br><br>
+        <label for="number">Phone Number: </label>
+        <input type="text" id="number" name="phone number" placeholder="+1 (000) 123-456" maxlength="16">
+        <br><br>
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+          <option value="saudi arabia">Saudi Arabia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+          <option value="australia">Australia</option>
+          <option value="england">England</option>
+          <option value="india">India</option>
+        </select><br><br>
+    
+        <label for="contact">Contact Us:</label><br>
+        <textarea id="contact" name="contactinfo" placeholder="Questions or Comments" ></textarea>
+    <br>
+    
+        <span class= "homeCon"><a href="/home">Submit</a></span>
+        <input type="reset" value="Clear form">
+      </form>
+    </fieldset>
+    
+        
+    <script src = "/jquery/dist/jquery.min.js"></script>
+        <script src = "/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src = "/Script/app.js"></script> 
+    
+    </body>
+    </html>
